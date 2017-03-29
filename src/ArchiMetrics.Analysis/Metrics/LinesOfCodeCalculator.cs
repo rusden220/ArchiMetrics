@@ -16,7 +16,7 @@ namespace ArchiMetrics.Analysis.Metrics
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal sealed class LinesOfCodeCalculator
+	public sealed class LinesOfCodeCalculator
 	{
 		public int Calculate(SyntaxNode node)
 		{

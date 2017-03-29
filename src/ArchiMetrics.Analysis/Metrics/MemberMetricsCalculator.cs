@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="MemberMetricsCalculator.cs" company="Reimers.dk">
-//   Copyright © Matthias Friedrich, Reimers.dk 2014
+//   Copyright ï¿½ Matthias Friedrich, Reimers.dk 2014
 //   This source is subject to the MIT License.
 //   Please see https://opensource.org/licenses/MIT for details.
 //   All other rights reserved.
@@ -23,7 +23,7 @@ namespace ArchiMetrics.Analysis.Metrics
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal sealed class MemberMetricsCalculator : SemanticModelMetricsCalculator
+	public sealed class MemberMetricsCalculator : SemanticModelMetricsCalculator
 	{
 		private readonly CyclomaticComplexityCounter _counter = new CyclomaticComplexityCounter();
 		private readonly LinesOfCodeCalculator _locCalculator = new LinesOfCodeCalculator();

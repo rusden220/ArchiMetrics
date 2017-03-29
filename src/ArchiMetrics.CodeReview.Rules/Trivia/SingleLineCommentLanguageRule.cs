@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="SingleLineCommentLanguageRule.cs" company="Reimers.dk">
-//   Copyright © Reimers.dk 2014
+//   Copyright ï¿½ Reimers.dk 2014
 //   This source is subject to the Microsoft Public License (Ms-PL).
 //   Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
 //   All other rights reserved.
@@ -15,7 +15,7 @@ namespace ArchiMetrics.CodeReview.Rules.Trivia
     using Analysis.Common.CodeReview;
     using Microsoft.CodeAnalysis.CSharp;
 
-	internal class SingleLineCommentLanguageRule : CommentLanguageRuleBase
+	public class SingleLineCommentLanguageRule : CommentLanguageRuleBase
 	{
 		public SingleLineCommentLanguageRule(ISpellChecker spellChecker)
 			: base(spellChecker)

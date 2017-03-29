@@ -20,7 +20,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class UnusedParametersInMethodRule : SemanticEvaluationBase
+	public class UnusedParametersInMethodRule : SemanticEvaluationBase
 	{
 		public override string ID
 		{

@@ -23,7 +23,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.FindSymbols;
 
-	internal abstract class UnusedCodeRule : SemanticEvaluationBase
+	public abstract class UnusedCodeRule : SemanticEvaluationBase
 	{
 		public override string Title
 		{

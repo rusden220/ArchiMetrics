@@ -18,7 +18,7 @@ namespace ArchiMetrics.Analysis.Common
     using System.Text.RegularExpressions;
     using System.Threading.Tasks;
 
-    internal static class Extensions
+    public static class Extensions
 	{
 		private static readonly Regex CapitalRegex = new Regex("[A-Z]", RegexOptions.Compiled);
 		private static readonly string[] KnownTestAttributes = { "Test", "TestCase", "TestMethod", "Fact", "Theory" };

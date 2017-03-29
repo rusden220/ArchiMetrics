@@ -14,7 +14,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 {
 	using Microsoft.CodeAnalysis.CSharp;
 
-	internal class UnusedEventRule : UnusedCodeRule
+	public class UnusedEventRule : UnusedCodeRule
 	{
 		public override string ID
 		{

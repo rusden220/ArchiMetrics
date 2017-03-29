@@ -23,7 +23,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 	using Microsoft.CodeAnalysis.FindSymbols;
 
-	internal class ClassInstabilityRule : SemanticEvaluationBase
+	public class ClassInstabilityRule : SemanticEvaluationBase
 	{
 		public override string ID
 		{

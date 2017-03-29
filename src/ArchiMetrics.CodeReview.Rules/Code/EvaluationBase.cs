@@ -20,7 +20,7 @@ namespace ArchiMetrics.CodeReview.Rules.Code
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal abstract class EvaluationBase : IEvaluation
+	public abstract class EvaluationBase : IEvaluation
 	{
 		private readonly LinesOfCodeCalculator _locCalculator = new LinesOfCodeCalculator();
 

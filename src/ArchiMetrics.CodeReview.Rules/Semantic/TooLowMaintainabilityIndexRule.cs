@@ -19,7 +19,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class TooLowMaintainabilityIndexRule : SemanticEvaluationBase
+	public class TooLowMaintainabilityIndexRule : SemanticEvaluationBase
 	{
 		public TooLowMaintainabilityIndexRule()
 		{

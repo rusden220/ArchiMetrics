@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="CyclomaticComplexityCounter.cs" company="Reimers.dk">
-//   Copyright © Matthias Friedrich, Reimers.dk 2014
+//   Copyright ï¿½ Matthias Friedrich, Reimers.dk 2014
 //   This source is subject to the MIT License.
 //   Please see https://opensource.org/licenses/MIT for details.
 //   All other rights reserved.
@@ -17,7 +17,7 @@ namespace ArchiMetrics.Analysis.Metrics
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal sealed class CyclomaticComplexityCounter
+	public sealed class CyclomaticComplexityCounter
 	{
 		public int Calculate(SyntaxNode node, SemanticModel semanticModel)
 		{

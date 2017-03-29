@@ -19,7 +19,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class UnreadFieldRule : UnreadValueRule
+	public class UnreadFieldRule : UnreadValueRule
 	{
 		public override string ID
 		{

@@ -19,7 +19,7 @@ namespace ArchiMetrics.CodeReview.Rules.Code
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class ServiceLocatorInvocationInTestRule : CodeEvaluationBase
+	public class ServiceLocatorInvocationInTestRule : CodeEvaluationBase
 	{
 		public override string ID
 		{

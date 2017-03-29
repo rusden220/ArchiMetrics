@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="CodeEvaluationBase.cs" company="Reimers.dk">
-//   Copyright © Reimers.dk 2014
+//   Copyright ï¿½ Reimers.dk 2014
 //   This source is subject to the Microsoft Public License (Ms-PL).
 //   Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
 //   All other rights reserved.
@@ -15,7 +15,7 @@ namespace ArchiMetrics.CodeReview.Rules.Code
     using Analysis.Common.CodeReview;
     using Microsoft.CodeAnalysis;
 
-	internal abstract class CodeEvaluationBase : EvaluationBase, ICodeEvaluation
+	public abstract class CodeEvaluationBase : EvaluationBase, ICodeEvaluation
 	{
 		public EvaluationResult Evaluate(SyntaxNode node)
 		{

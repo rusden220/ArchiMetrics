@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="SemanticEvaluationBase.cs" company="Reimers.dk">
-//   Copyright © Reimers.dk 2014
+//   Copyright ï¿½ Reimers.dk 2014
 //   This source is subject to the Microsoft Public License (Ms-PL).
 //   Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
 //   All other rights reserved.
@@ -17,7 +17,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using ArchiMetrics.CodeReview.Rules.Code;
 	using Microsoft.CodeAnalysis;
 
-	internal abstract class SemanticEvaluationBase : EvaluationBase, ISemanticEvaluation
+	public abstract class SemanticEvaluationBase : EvaluationBase, ISemanticEvaluation
 	{
 		public async Task<EvaluationResult> Evaluate(SyntaxNode node, SemanticModel semanticModel, Solution solution)
 		{

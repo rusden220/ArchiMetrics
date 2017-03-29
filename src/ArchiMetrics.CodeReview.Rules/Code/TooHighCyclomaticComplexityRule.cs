@@ -18,7 +18,7 @@ namespace ArchiMetrics.CodeReview.Rules.Code
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class TooHighCyclomaticComplexityRule : CodeEvaluationBase
+	public class TooHighCyclomaticComplexityRule : CodeEvaluationBase
 	{
 		private const int Limit = 10;
 		private readonly CyclomaticComplexityCounter _counter = new CyclomaticComplexityCounter();

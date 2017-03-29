@@ -22,7 +22,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal abstract class UnreadValueRule : SemanticEvaluationBase
+	public abstract class UnreadValueRule : SemanticEvaluationBase
 	{
 		public override string ID
 		{

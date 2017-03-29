@@ -19,7 +19,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class PossibleStaticMethod : SemanticEvaluationBase
+	public class PossibleStaticMethod : SemanticEvaluationBase
 	{
 		public override string ID
 		{

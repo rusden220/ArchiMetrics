@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="CommentLanguageRuleBase.cs" company="Reimers.dk">
-//   Copyright © Reimers.dk 2014
+//   Copyright ï¿½ Reimers.dk 2014
 //   This source is subject to the Microsoft Public License (Ms-PL).
 //   Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
 //   All other rights reserved.
@@ -18,9 +18,9 @@ namespace ArchiMetrics.CodeReview.Rules.Trivia
 	using Analysis.Common.CodeReview;
 	using Microsoft.CodeAnalysis;
 
-	internal abstract class CommentLanguageRuleBase : TriviaEvaluationBase
+	public abstract class CommentLanguageRuleBase : TriviaEvaluationBase
 	{
-		private static readonly Regex StrippedRegex = new Regex(@"[""'*©®º()!%\[\]{}/]+", RegexOptions.Compiled);
+		private static readonly Regex StrippedRegex = new Regex(@"[""'*ï¿½ï¿½ï¿½()!%\[\]{}/]+", RegexOptions.Compiled);
 		private static readonly Regex LineDashRegex = new Regex(@"-{3,}", RegexOptions.Compiled);
 		private static readonly Regex NumberRegex = new Regex("[1-9]+", RegexOptions.Compiled);
 		private static readonly Regex XmlRegex = new Regex("<.+?>", RegexOptions.Compiled);

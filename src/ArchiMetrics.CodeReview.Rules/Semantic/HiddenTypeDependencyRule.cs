@@ -20,7 +20,7 @@ namespace ArchiMetrics.CodeReview.Rules.Semantic
 	using Microsoft.CodeAnalysis.CSharp;
 	using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-	internal class HiddenTypeDependencyRule : SemanticEvaluationBase
+	public class HiddenTypeDependencyRule : SemanticEvaluationBase
 	{
 		private static readonly string[] SystemAssemblyPrefixes = new[] { "mscorlib", "System", "Microsoft", "PresentationFramework", "Windows" };
 
