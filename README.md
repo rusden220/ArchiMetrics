@@ -78,7 +78,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using ArchiMetrics.Analysis;
-using ArchiMetrics.Common;
+using ArchiMetrics.Analysis.Common;
 
 namespace ConsoleApplication
 {
